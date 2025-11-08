@@ -1,2 +1,2 @@
-let languages=  ["C is fun","Python is cool", "JavaScript is amazing"];
+let languages= "C is fun" + "\n" + "Python is cool" + "\n" + "JavaScript is amazing";
 console.log(languages);
