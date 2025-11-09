@@ -4,3 +4,5 @@ const argu= function (best, best_school){
 }
 
 argu(`Stephen`, `ALX`);
+argu();
+argu();
