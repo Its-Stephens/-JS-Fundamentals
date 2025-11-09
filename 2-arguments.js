@@ -1,8 +1,9 @@
-const argu= function (best, best_school){
-       
-    console.log(`${best} is the best programmer in ${best_school}`);
-}
+const args = process.argv.slice(2); // Get arguments passed to the script
 
-argu(`Stephen`, `ALX`);
-argu();
-argu();
+if (args.length === 0) {
+  console.log("No argument");
+} else if (args.length === 1) {
+  console.log("Argument found");
+} else {
+  console.log("No Arguments");
+}
