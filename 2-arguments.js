@@ -1,13 +1,11 @@
-let i= 4;
-let p= 3;
-let g= 10;
-if (i< 4){
-    console.log("No argument")
-    i++;
+const i= '4';
+
+switch(i){
+    case '4':
+        console.log("No argument");
+    case '5':
+        console.log("Argument found");
+    case '6':
+        console.log("No argument");        
 }
-else if(i< 4 || p<= 4){
-    console.log("Argument found")
-}
-else{
-    console.log("No argument")
-}
+    
